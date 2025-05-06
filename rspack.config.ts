@@ -29,7 +29,7 @@ export default defineConfig({
       {
         test: /\.[mc]?[jt]sx?$/,
         // This doesn't work with the options shorthand - the options are not applied to the loader.
-        // I you change this to `loader: 'builtin:swc-loader'` it will work, and the options will
+        // If you change this to `loader: 'builtin:swc-loader'` it will work, and the options will
         // be applied to the loader correctly.
         use: 'builtin:swc-loader',
         options: {
