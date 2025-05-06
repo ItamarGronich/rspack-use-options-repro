@@ -1,0 +1,3 @@
+# node modules in fixtures are part of the code.
+!/node_modules/
+!/node_modules/**/*
