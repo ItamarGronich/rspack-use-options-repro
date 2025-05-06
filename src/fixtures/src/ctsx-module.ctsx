@@ -1,3 +1,0 @@
-export function ctsxMod(): string {
-  return "ctsx";
-}

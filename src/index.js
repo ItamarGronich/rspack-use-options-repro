@@ -6,5 +6,7 @@ import { mtsMod } from './mts-module';
 import { ctsMod } from './cts-module';
 
 export function bundleMain() {
-    return [jsMod(), mjsMod(), cjsMod(), tsMod(), mtsMod(), ctsMod()];
+  return [jsMod(), mjsMod(), cjsMod(), tsMod(), mtsMod(), ctsMod()];
 }
+
+console.log('bundleMain', bundleMain());
