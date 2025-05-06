@@ -1,23 +1,18 @@
-# Rspack project
+# Reproduction repo for Rspack use shorthand + options bug
 
-## Setup
+# Steps to reproduce
 
-Install the dependencies:
+1. Clone the repo
+2. Run `npm install`
+3. Run `npm run build`
+4. Observe the error message
 
-```bash
-npm install
-```
+Checkout comment in `./rspack.config.js` for more details on the issue.
 
-## Get started
+# Expected behavior
 
-Start the dev server:
+There should be a typescript error when using shorthand + options in the `rspack.config.js` file.
 
-```bash
-npm run dev
-```
+# Actual behavior
 
-Build the app for production:
-
-```bash
-npm run build
-```
+There is no typescript error when using shorthand + options in the `rspack.config.js` file.
